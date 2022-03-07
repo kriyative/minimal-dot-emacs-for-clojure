@@ -6,7 +6,7 @@ To get started:
 
 #+begin_src shell
   cd $HOME
-  git clone https://github.com/kriyative/minimal-dot-emacs-for-clojure-.git .emacs.d
+  git clone https://github.com/kriyative/minimal-dot-emacs-for-clojure.git .emacs.d
 #+end_src
 
 - Start emacs
