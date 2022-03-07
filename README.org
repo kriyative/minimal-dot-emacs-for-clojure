@@ -1,0 +1,22 @@
+This is a minimal .emacs/init.el to setup clojure-mode [1], CIDER-mode [2] and Paredit mode [3] for folks just starting out with Clojure development.
+
+To get started:
+
+- Clone this repo:
+
+#+begin_src shell
+  cd $HOME
+  git clone https://github.com/kriyative/minimal-dot-emacs-for-clojure-.git .emacs.d
+#+end_src
+
+- Start emacs
+- Press the =y= key when prompted to confirm installing the =clojure-mode=, =CIDER= and =paredit= packages. This should only be on the first time these need to be installed
+- Visit any Clojure project =deps.edn= file using the =C-x C-f= keybinding
+- Start Clojure with =M-x cider-jack-in= (=M-x= means press the =Alt= or =Option= key and the =x= key simultaneously, and type in the =cider-jack-in= command at the prompt, and hit the =Enter= or =Return= key)
+- If all goes well, the Clojure REPL should appear in a new window alongside =deps.edn=
+
+
+- [1] https://github.com/clojure-emacs/clojure-mode
+- [2] https://github.com/clojure-emacs/cider
+- [3] http://danmidwood.com/content/2014/11/21/animated-paredit.html
+
